@@ -1,0 +1,99 @@
+
+body{
+    margin: 0px;
+    background-color: black;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(30, 30, 30);
+    color: white;
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+}
+#logo{
+    display: flex;
+    font-size: 35px;
+    color:red;
+
+}
+#logo>h2{
+    margin: 0px;
+    font-size: 25px;
+    color: white;
+}
+
+#nav-left-child{
+    display: flex;
+    /* border: 1px solid green; */
+    font-size: 25px;
+    padding: 5px 10px;
+
+}
+#nav-left-child>i{
+    margin-right: 20px;
+    
+}
+#input{
+   background-color: rgb(63, 63, 63);
+    width: 40%;
+    height: 2.3rem;
+   font-size: 20px;
+    
+}
+#input>input{
+     width: 90%;
+     height: 2rem;
+     font-size: 17px;
+     background-color: black;
+     color: white;
+     border: none;
+}
+#input>i{
+    padding: 6px;
+    
+}
+#icon{
+  
+    font-size: 25px;
+    margin-right: 10px;
+}
+#icon>i{
+    padding: 5px;
+    margin: 5px 10px;
+}
+#container{
+    display: flex;
+    margin-top: 5rem;
+}
+#sidebar{
+   
+    position: fixed;
+    top: 4.1rem;
+    padding: 15px;
+    font-size: 25px;
+    display: flex;
+    margin-left: -2px;
+    height: 100%;
+    flex-direction: column;
+    background-color: rgb(30, 30, 30);
+   
+}
+#sidebar>i{
+    margin-bottom: 3rem;
+    color: white;
+}
+#video{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    width: 90%;
+    margin-left: 7%;
+}
+#box>img{
+   width: 100%;
+}
